@@ -24,8 +24,8 @@
         "customWebpackConfig": {
           "path": "apps/shell-app/webpack.config.js"
         },
-        "baseHref": "/mfa-nx-fed/shell-app/",
-        "deployUrl": "/mfa-nx-fed/shell-app/"
+        "baseHref": "/mfa-nx-fed/",
+        "deployUrl": "/mfa-nx-fed/"
       },
       "configurations": {
         "production": {
