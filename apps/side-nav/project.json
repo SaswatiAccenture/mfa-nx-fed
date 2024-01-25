@@ -20,7 +20,9 @@
         "scripts": [],
         "customWebpackConfig": {
           "path": "apps/side-nav/webpack.config.js"
-        }
+        },
+        "baseHref": "/mfa-nx-fed/side-nav/",
+        "deployUrl": "/mfa-nx-fed/side-nav/"
       },
       "configurations": {
         "production": {

@@ -20,7 +20,9 @@
         "scripts": [],
         "customWebpackConfig": {
           "path": "apps/header/webpack.config.js"
-        }
+        },
+        "baseHref": "/mfa-nx-fed/header/",
+        "deployUrl": "/mfa-nx-fed/header/"
       },
       "configurations": {
         "production": {
