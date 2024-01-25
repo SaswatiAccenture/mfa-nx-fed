@@ -4,6 +4,7 @@
   "projectType": "application",
   "prefix": "nx-demo-angular",
   "sourceRoot": "apps/shell-app/src",
+  "implicitDependencies": ["header", "side-nav", "item-details","footer"],
   "tags": [],
   "targets": {
     "build": {
