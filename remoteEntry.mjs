@@ -1,14 +1,14 @@
 /******/ var __webpack_modules__ = ({
 
-/***/ 8030:
+/***/ 3336:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 var moduleMap = {
 	"./Module": () => {
-		return Promise.all([__webpack_require__.e(856), __webpack_require__.e(946), __webpack_require__.e(823), __webpack_require__.e(592)]).then(() => (() => ((__webpack_require__(306)))));
+		return Promise.all([__webpack_require__.e(856), __webpack_require__.e(946), __webpack_require__.e(823), __webpack_require__.e(592)]).then(() => (() => ((__webpack_require__(7623)))));
 	},
 	"./component": () => {
-		return Promise.all([__webpack_require__.e(856), __webpack_require__.e(592)]).then(() => (() => ((__webpack_require__(3349)))));
+		return Promise.all([__webpack_require__.e(856), __webpack_require__.e(592)]).then(() => (() => ((__webpack_require__(2038)))));
 	}
 };
 var get = (module, getScope) => {
@@ -115,7 +115,7 @@ __webpack_require__.d(exports, {
 /******/ 	// This function allow to reference async chunks
 /******/ 	__webpack_require__.u = (chunkId) => {
 /******/ 		// return url for filenames based on template
-/******/ 		return "" + (chunkId === 592 ? "common" : chunkId) + "." + {"144":"bd5aead222d569ac","278":"bbb161657bf7e366","550":"814a62cebf2b37fa","592":"ed899d06042e3c21","599":"0d77581a08619b8e","706":"b46a15e7256eb569","755":"b78d3d03435430e0","823":"6f825c9dc2ba06d0","856":"ff956531479fbdd8","902":"6d24eec218a8476f","946":"726118f119ad058e"}[chunkId] + ".js";
+/******/ 		return "" + (chunkId === 592 ? "common" : chunkId) + "." + {"144":"57965fa48cd39efb","278":"39172b60819bfed9","550":"2ceba73488a22107","592":"fb2759cb5848e394","599":"d3a117607a89cd8a","706":"6f5c80f0b016f257","755":"3a19baa5697be0a9","823":"37ec0a6c4fe0dfe5","856":"31e69680f7bd8552","902":"6e8fcdee5c1aae84","946":"d26a125f340d7103"}[chunkId] + ".js";
 /******/ 	};
 /******/ })();
 /******/ 
@@ -136,7 +136,7 @@ __webpack_require__.d(exports, {
 /******/ /* webpack/runtime/load script */
 /******/ (() => {
 /******/ 	var inProgress = {};
-/******/ 	var dataWebpackPrefix = "header:";
+/******/ 	var dataWebpackPrefix = "footer:";
 /******/ 	// loadScript function to load a script via script tag
 /******/ 	__webpack_require__.l = (url, done, key, chunkId) => {
 /******/ 		if(inProgress[url]) { inProgress[url].push(done); return; }
@@ -208,7 +208,7 @@ __webpack_require__.d(exports, {
 /******/ 		// runs all init snippets from all modules reachable
 /******/ 		var scope = __webpack_require__.S[name];
 /******/ 		var warn = (msg) => (typeof console !== "undefined" && console.warn && console.warn(msg));
-/******/ 		var uniqueName = "header";
+/******/ 		var uniqueName = "footer";
 /******/ 		var register = (name, version, factory, eager) => {
 /******/ 			var versions = scope[name] = scope[name] || {};
 /******/ 			var activeVersion = versions[version];
@@ -470,7 +470,7 @@ __webpack_require__.d(exports, {
 /******/ 	// undefined = chunk not loaded, null = chunk preloaded/prefetched
 /******/ 	// [resolve, reject, Promise] = chunk loading, 0 = chunk loaded
 /******/ 	var installedChunks = {
-/******/ 		19: 0
+/******/ 		348: 0
 /******/ 	};
 /******/ 	
 /******/ 	__webpack_require__.f.j = (chunkId, promises) => {
@@ -547,7 +547,7 @@ __webpack_require__.d(exports, {
 /******/ 	
 /******/ 	}
 /******/ 	
-/******/ 	var chunkLoadingGlobal = self["webpackChunkheader"] = self["webpackChunkheader"] || [];
+/******/ 	var chunkLoadingGlobal = self["webpackChunkfooter"] = self["webpackChunkfooter"] || [];
 /******/ 	chunkLoadingGlobal.forEach(webpackJsonpCallback.bind(null, 0));
 /******/ 	chunkLoadingGlobal.push = webpackJsonpCallback.bind(null, chunkLoadingGlobal.push.bind(chunkLoadingGlobal));
 /******/ })();
@@ -557,7 +557,7 @@ __webpack_require__.d(exports, {
 /******/ // module cache are used so entry inlining is disabled
 /******/ // startup
 /******/ // Load entry module and return exports
-/******/ var __webpack_exports__ = __webpack_require__(8030);
+/******/ var __webpack_exports__ = __webpack_require__(3336);
 /******/ var __webpack_exports__get = __webpack_exports__.get;
 /******/ var __webpack_exports__init = __webpack_exports__.init;
 /******/ export { __webpack_exports__get as get, __webpack_exports__init as init };
