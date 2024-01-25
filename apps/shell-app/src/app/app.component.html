@@ -1,0 +1,27 @@
+<!-- <ul class="remote-menu">
+  <li><a routerLink="/">Home</a></li>
+  <li><a routerLink="side-nav">SideNav</a></li>
+  <li><a routerLink="item-details">ItemDetails</a></li>
+  <li><a routerLink="header">Header</a></li>
+  <li><a routerLink="footer">Footer</a></li>
+</ul>
+<router-outlet></router-outlet> -->
+
+<div >
+  <div #headerPlaceHolder>
+  </div>
+  <div class="main-container"> 
+    <div class="side-nav">
+      <ng-template #sideNavPlaceHolder></ng-template>
+    </div>
+
+    <div class="item-details">
+      <ng-template #itemDetailsPlaceHolder></ng-template>
+    </div>
+  </div>
+  <span #reactHeader></span>
+  <div>
+    <ng-template #footerPlaceHolder></ng-template>
+  </div>
+</div>
+
